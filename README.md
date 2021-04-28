@@ -11,7 +11,6 @@
 
 TBA
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -46,7 +45,6 @@ To make sure the linters' checks using Github Actions work properly, you should 
 3. Start working on your milestone as usual.
 4. Open a PR from the `feature/branch` when your work is done.
 
-
 ### Usage
 
 Start server with:
@@ -60,7 +58,7 @@ Open `http://localhost:3000/` in your browser.
 ### Run tests
 
 ```
-    rpsec --format documentation
+    rspec --format documentation
 ```
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
@@ -71,7 +69,17 @@ TBA
 
 ## Authors
 
-TBA
+**Franklin benjamin crisostomo de la rosa**
+
+- GitHub: [@franklinben23](https://github.com/franklinben23)
+- Twitter: [@frankli2302](https://twitter.com/Frankli2302)
+- LinkedIn: [Franklin Benjamin](https://www.linkedin.com/in/franklinbenjamin/)
+
+**Nicholas Diamond**
+
+- GitHub: [@Diamond](https://github.com/diamond-nicholas)
+- LinkedIn: [Diamond Nicholas](https://www.linkedin.com/in/diamond-nicholas/)
+- Twitter: [@diamondnich](https://twitter.com/diamondnich)
 
 ## 🤝 Contributing
 
@@ -90,4 +98,3 @@ TBA
 ## 📝 License
 
 TBA
-

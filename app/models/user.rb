@@ -9,4 +9,32 @@ class User < ApplicationRecord
   has_many :posts
   has_many :comments, dependent: :destroy
   has_many :likes, dependent: :destroy
+  has_many :friendships
+  has_many :inverse_friendships, class_name: 'Friendship', foreign_key: 'friend_id'
+  has_many :friend_requests, through: :inverse_friendships
+  has_many :confirmed_friendships, -> { where confirmed: true }, class_name: 'Friendship'
+  has_many :friends, through: :confirmed_friendships
+
+  def sent_invitation
+    friends_array = friendships.map(&:friend)
+    friends_array.compact
+  end
+
+  def received_invitation
+    friends_array = inverse_friendships.map(&:user)
+    friends_array.compact
+  end
+
+  def confirmed_friend?(user)
+    sent_invitation.include?(user) && received_invitation.include?(user)
+  end
+
+  def sent_to_friend?(user)
+    sent_invitation.include?(user)
+  end
+
+  def mutual_friends
+    friends_array = sent_invitation.map { |friend| friend if friend.confirmed_friend?(self) }
+    friends_array.compact
+  end
 end
