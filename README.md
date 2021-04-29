@@ -65,7 +65,8 @@ Open `http://localhost:3000/` in your browser.
 
 ### Deployment
 
-TBA
+This project was deployed to heroku and the link is provided below
+
 
 ## Authors
 
