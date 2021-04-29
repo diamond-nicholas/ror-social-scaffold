@@ -1,38 +1,6 @@
 # Scaffold for social media app with Ruby on Rails
 
-This repo presents a social media app called “Stay in touch”.
-
-As a guest user:
-
-- I'm able to create account/log in.
-
-- I can see only “Sign in” and “Sign out” page.
-
-As a logged-in user:
-
-- I'm able to see all users list.
-
-- I'm able to see selected user page with their user name and all posts written by them (the most recent posts on the top).
-
-- I'm able to send a friendship invitation.
-
-- I can see a button “Invite to friendship” next to the name of user who is not my friend yet - on both users’ list and single user page.
-
-- I'm able to see pending friendship invitations sent to me from other users.
-
-- I'm able to accept or reject friendships invitation.
-
-- I'm able to create new posts (text only).
-
-- I'm able to like/dislike posts (but I can like single post only once).
-
-- I'm able to add comments to posts.
-
-- I'm able to see “Timeline” page with posts (with number of likes and comments) written by me and all my friends (the most recent posts on the top).
-
-- Timeline is the root page of the app.
-
-- Confirmed friendships creates 2 rows in the query.
+> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
 ## Built With
 
@@ -41,16 +9,11 @@ As a logged-in user:
 
 ## Live Demo
 
-[Stay In Touch](https://safe-beyond-81247.herokuapp.com/)
+TBA
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-
-- Open your terminal to the your desired directory and runt hte command (git clone https://github.com/franklinben23/ror-social-scaffold.git). This 
-  will clone a copy of the project.
-- To get the project running on your local computer, run the command (rails s).
-- If prompted, run the command 'bundle install' to install the required gems.
 
 ### Prerequisites
 
@@ -131,4 +94,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-My shout out goes to Microverse for investing on us to becoming world-class software engineers.
+TBA
+
+## 📝 License
+
+TBA
