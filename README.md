@@ -1,5 +1,4 @@
 # Scaffold for social media app with Ruby on Rails
-# Scaffold for social media app with Ruby on Rails
 
 This repo presents a social media app called “Stay in touch”.
 
@@ -47,6 +46,11 @@ As a logged-in user:
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+- Open your terminal to the your desired directory and runt hte command (git clone https://github.com/franklinben23/ror-social-scaffold.git). This 
+  will clone a copy of the project.
+- To get the project running on your local computer, run the command (rails s).
+- If prompted, run the command 'bundle install' to install the required gems.
 
 ### Prerequisites
 
@@ -96,11 +100,6 @@ Open `http://localhost:3000/` in your browser.
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
-### Deployment
-
-This project was deployed to heroku and the link is provided below
-(https://safe-beyond-81247.herokuapp.com/)
-
 ## Authors
 
 **Franklin benjamin crisostomo de la rosa**
@@ -127,8 +126,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
-
-## 📝 License
-
-TBA
+My shout out goes to Microverse for investing on us to becoming world-class software engineers.
