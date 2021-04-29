@@ -66,7 +66,7 @@ Open `http://localhost:3000/` in your browser.
 ### Deployment
 
 This project was deployed to heroku and the link is provided below
-
+(https://safe-beyond-81247.herokuapp.com/)
 
 ## Authors
 
