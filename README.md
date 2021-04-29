@@ -4,8 +4,8 @@
 
 ## Built With
 
-- Ruby v2.7.0
-- Ruby on Rails v5.2.4
+- Ruby v2.7.2
+- Ruby on Rails v6.1.3.1
 
 ## Live Demo
 
@@ -66,7 +66,7 @@ Open `http://localhost:3000/` in your browser.
 ### Deployment
 
 This project was deployed to heroku and the link is provided below
-
+(https://safe-beyond-81247.herokuapp.com/)
 
 ## Authors
 
